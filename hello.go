@@ -10,7 +10,7 @@ import (
 var port string
 
 func HelloHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Hello, World!")
+	fmt.Fprintln(w, "Hello, World! This is a GO app.")
 }
 
 func main() {
